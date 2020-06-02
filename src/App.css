@@ -2,37 +2,196 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap");
+:root {
+  --sidebar-flex: 1.5;
+  --condiv-flex: 6;
+  --fontsize-p: 1.2rem;
+  --fontsize-nav: 1.6rem;
+  --typing-font: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Raleway";
+}
+.App {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Nanum Myeongjo", serif;
+}
+/* .condiv class is for the right side content container*/
+.condiv {
+  background-color: #f4f5f9;
+  flex: var(--condiv-flex);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  width: fit-content;
+}
+/* Left nav styling */
+#SideNav {
+  background: #ffafbd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc3a0,
+    #ffafbd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc3a0,
+    #ffafbd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+nav {
+  padding-top: 50%;
+  flex: var(--sidebar-flex);
+  background: #ffafbd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc3a0,
+    #ffafbd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc3a0,
+    #ffafbd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+}
+
+nav ul {
+  font-size: var(--fontsize-nav);
+  text-align: left;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav ul li {
+  margin: 2em;
+  text-decoration: none;
+}
+
+nav ul li a {
+  margin: 40px;
+  color: #f0ffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul {
+  color: #f0ffff;
+}
+
+a:active {
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+}
+
+/*
+.active {
+
+}
+*/
+
+.social {
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+  background: black;
+  display: inline-block;
+  align-self: flex-end;
+}
+.social i {
+  padding-right: 10px;
+  font-size: 25px;
+  color: red;
+  position: relative;
+  z-index: 2;
+}
+.social i:hover {
+  color: #ffffff;
+}
+
+.widecard {
+  border: 0px solid #9a9b9c;
+  display: flex;
+  margin: 30px 0px 30px 0px;
+}
+.widecard:hover {
+  color: #1b1d20;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* Styling About*/
+
+.subtopic {
+  margin: 10px 10px 30px 10px !important;
+}
+
+p {
+  font-size: var(--fontsize-p);
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 10px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5em;
+}
+
+.img-fluid {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 650px) {
+  #content p {
+    font-size: 0.8rem;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.blurb {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#content {
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0, 2);
+}
+
+/* Style projects */
+.card-img-top {
+  height: 250px;
+  width: 100%;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
 }
