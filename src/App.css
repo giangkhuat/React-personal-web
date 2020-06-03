@@ -30,7 +30,7 @@ body {
 }
 /* .condiv class is for the right side content container*/
 .condiv {
-  background-color: #f4f5f9;
+  background-color: white;
   flex: var(--condiv-flex);
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,6 +53,7 @@ body {
     #ffc3a0,
     #ffafbd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 nav {
@@ -112,8 +113,6 @@ nav ul li a:hover {
 
 .social {
   margin-bottom: 20px;
-  position: relative;
-  z-index: 2;
   background: black;
   display: inline-block;
   align-self: flex-end;
@@ -125,20 +124,12 @@ nav ul li a:hover {
   position: relative;
   z-index: 2;
 }
+
+/*
 .social i:hover {
   color: #ffffff;
 }
-
-.widecard {
-  border: 0px solid #9a9b9c;
-  display: flex;
-  margin: 30px 0px 30px 0px;
-}
-.widecard:hover {
-  color: #1b1d20;
-  background-color: #ffffff;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
+*/
 
 /* Styling About*/
 
@@ -147,7 +138,7 @@ nav ul li a:hover {
 }
 
 p {
-  font-size: var(--fontsize-p);
+  font-size: 14px;
 }
 h1,
 h2,
@@ -192,6 +183,7 @@ h1 {
 .card-img-top {
   height: 250px;
   width: 100%;
+  height: 100%;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
   border-radius: 1em;
 }

@@ -40,7 +40,7 @@ class Navbar extends Component {
               activeCard={this.activeitem}
             ></NavItem>
             <NavItem
-              item="Experience"
+              item="Education"
               tolink="/experience"
               activeCard={this.activeitem}
             ></NavItem>

@@ -1,17 +1,16 @@
 import React, { Component } from "react";
 import profilepic from "../img/Giang.JPG";
-import foodpic from "../img/food.JPG";
 import { Container, Row, Col } from "react-bootstrap";
 import Social from "./Social";
+import IntroCard from "../components/IntroCard";
+import Carousel from "../components/Carousel";
+import { SliderIntro } from "../components/SliderIntro";
 
 function About() {
-  //<h2> I am {personAt.name} and I am {personAt.age} years old</h2>
-  return (
-    <div className="condiv" id="content">
+  /*
       <Container>
         <Row className="justify-content">
           <Col className="blurb" md={6}>
-            <Social />
             <h2>About me</h2>
             <p>
               I am from Hanoi, Vietnam. I major in Computer Science in a US
@@ -44,6 +43,10 @@ function About() {
           </Col>
         </Row>
       </Container>
+      */
+  return (
+    <div className="condiv" id="content">
+      <Carousel inputText={SliderIntro} />
     </div>
   );
 }
