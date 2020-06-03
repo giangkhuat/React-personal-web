@@ -101,6 +101,9 @@ a:active {
   text-decoration: none;
 }
 
+a:visited:active {
+  text-decoration: none;
+}
 nav ul li a:hover {
   text-decoration: none;
 }
@@ -112,17 +115,12 @@ nav ul li a:hover {
 */
 
 .social {
-  margin-bottom: 20px;
-  background: black;
   display: inline-block;
-  align-self: flex-end;
 }
 .social i {
-  padding-right: 10px;
-  font-size: 25px;
-  color: red;
-  position: relative;
-  z-index: 2;
+  padding: 10px;
+  font-size: 2em;
+  color:white;
 }
 
 /*

@@ -3,10 +3,10 @@ function Social() {
   return (
     <div class="social">
       <a href="https://github.com/giangkhuat" target="_blank">
-        <i class="fab fa-github"></i>
+        <i class="fa fa-github"></i>
       </a>
       <a href="https://www.linkedin.com/in/giangkhuat/" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
+        <i class="fa fa-linkedin"></i>
       </a>
     </div>
   );

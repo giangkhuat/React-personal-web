@@ -39,10 +39,10 @@ function Carousel(props) {
         );
       })}
       <button id="goleft" onClick={goLeft}>
-        <i class="fas fa-chevron-left">Left</i>
+        <i class="fa fa-chevron-left"></i>
       </button>
       <button id="goright" onClick={goRight}>
-        <i class="fas fa-chevron-left">Right</i>
+        <i class="fa fa-chevron-right"></i>
       </button>
     </div>
   );
