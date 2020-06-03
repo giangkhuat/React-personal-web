@@ -165,11 +165,6 @@ h1 {
   }
 }
 
-.blurb {
-  padding-top: 40px;
-  padding-bottom: 20px;
-}
-
 #content {
   text-align: center;
   padding-top: 5%;
@@ -186,4 +181,8 @@ h1 {
   height: 100%;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
   border-radius: 1em;
+}
+
+.blurb {
+  padding-top: 5%;
 }

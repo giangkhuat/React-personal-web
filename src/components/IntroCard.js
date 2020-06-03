@@ -8,7 +8,7 @@ How each slide about me will be present
 
 function IntroCard(props) {
   return (
-    <Container>
+    <Container id="intro-content">
       <Row className="justify-content">
         <Col className="blurb" md={6}>
           <h2>{props.title}</h2>
