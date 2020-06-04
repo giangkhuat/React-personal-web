@@ -1,11 +1,10 @@
 import React from "react";
-//import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import About from "./contents/About";
-import Experience from "./contents/Experience";
-import Projects from "./contents/Projects";
+import Navbar from "./components/Navbar/Navbar";
+import About from "./components/About/About";
+import Experience from "./components/Education/Experience";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (

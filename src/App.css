@@ -4,7 +4,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap");
 :root {
-  --sidebar-flex: 1.5;
   --condiv-flex: 6;
   --fontsize-p: 1.2rem;
   --fontsize-nav: 1.6rem;
@@ -31,15 +30,11 @@ body {
 /* .condiv class is for the right side content container*/
 .condiv {
   background-color: white;
-  flex: var(--condiv-flex);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  max-height: 100%vh;
 }
 
-.container {
-  width: fit-content;
-}
+
 /* Left nav styling */
 #SideNav {
   background: #ffafbd; /* fallback for old browsers */
@@ -54,97 +49,10 @@ body {
     #ffafbd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+  min-width: 200px;
+  max-height: 100% vh;
 }
 
-nav {
-  padding-top: 50%;
-  flex: var(--sidebar-flex);
-  background: #ffafbd; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffc3a0,
-    #ffafbd
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffc3a0,
-    #ffafbd
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
-}
-
-nav ul {
-  font-size: var(--fontsize-nav);
-  text-align: left;
-  list-style-type: none;
-  text-decoration: none;
-}
-
-nav ul li {
-  margin: 2em;
-  text-decoration: none;
-}
-
-nav ul li a {
-  margin: 40px;
-  color: #f0ffff;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-ul {
-  color: #f0ffff;
-}
-
-a:active {
-  font-weight: bolder;
-  text-decoration: none;
-}
-
-a:visited:active {
-  text-decoration: none;
-}
-nav ul li a:hover {
-  text-decoration: none;
-}
-
-/*
-.active {
-
-}
-*/
-
-.social {
-  display: inline-block;
-}
-.social i {
-  padding: 10px;
-  font-size: 2em;
-  color:white;
-}
-
-/*
-.social i:hover {
-  color: #ffffff;
-}
-*/
-
-/* Styling About*/
-
-.subtopic {
-  margin: 10px 10px 30px 10px !important;
-}
-
-p {
-  font-size: 14px;
-}
-h1,
-h2,
-h3,
-h4,
-p {
-  margin: 10px;
-}
 
 h1 {
   font-weight: 700;
