@@ -10,7 +10,7 @@ function Experience() {
           title="B.A, Computer Science"
           where="Grinnell College, IA"
           date="August 2017- May 2021"
-          quote="“When being broke and dumb does not cause me trouble...”"
+          quote="“When being dumb and financially independent does not cause me trouble...”"
         />
         <hr></hr>
         <EduCard
