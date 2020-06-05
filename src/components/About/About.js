@@ -6,7 +6,7 @@ import "./about.scss"
 function About() {
   return (
     <div className="condiv" id="content">
-      <Carousel inputText={SliderIntro} />
+      <Carousel id="intro-slides" inputText={SliderIntro} />
     </div>
   );
 }
