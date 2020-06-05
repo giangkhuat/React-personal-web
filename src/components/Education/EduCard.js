@@ -16,8 +16,7 @@ function EduCard(props) {
       <h2 class="title">{props.title}</h2>
       <h4 className="secondtex">{props.where}</h4>
       <div class="date">{props.date}</div>
-      <div class="quote">"Live life to the fullest"</div>
-      
+      <div class="quote">{props.quote}</div>
     </div>
   );
 }

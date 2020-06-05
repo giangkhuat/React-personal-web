@@ -1,7 +1,52 @@
- #project-card {
-    padding-top: 0px;
+#project-card {
+  padding-top: 0px;
 }
 
 #project-carousel {
-    height: 50%;
+  height: 70%;
+  padding: 0px;
+}
+
+#project-carousal img {
+  max-height: 60%;
+  object-fit: contain;
+}
+
+#card-body {
+  color: #333333;
+  font-size: large;
+}
+
+.card-body .h5 {
+  font-size: 2em;
+  color: #333333;
+}
+
+.card-body button {
+  color: #333333;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  padding: 10px;
+}
+
+.card-body button:hover {
+  background: #ffc3a0;
+  font: bolder;
+}
+
+.slide {
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ffdde1,
+    #ee9ca7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffdde1,
+    #ee9ca7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

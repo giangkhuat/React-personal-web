@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Button, Card, Container, Row, Col } from "react-bootstrap";
-import './project.scss'
+import "./project.scss";
 
 function ProjectCard(props) {
   return (
-      /*
+    /*
     <Container>
       <Row className="justify-content">
         <Col className="blurb" md={6}>
@@ -17,7 +17,7 @@ function ProjectCard(props) {
       </Row>
     </Container>
 */
-    
+
     <div>
       <Card>
         <Card.Img
@@ -26,17 +26,14 @@ function ProjectCard(props) {
           variant="top"
           src={props.imgSrc}
         />
-        <Card.Body>
+        <Card.Body id="card-body">
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.text}</Card.Text>
           <Button variant="primary">Explore</Button>
         </Card.Body>
       </Card>
-      <p>
-        
-      </p>
+      <p></p>
     </div>
-    
   );
 }
 export default ProjectCard;

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import NavItem from "./NavItem";
 import Social from "../contents/Social";
-import "./nav.scss"
+import "./nav.scss";
+import giang from "./avatar.PNG";
 
 class Navbar extends Component {
   constructor(props) {
@@ -33,6 +34,8 @@ class Navbar extends Component {
     return (
       <div>
         <nav>
+          <img id="avatar" src={giang}></img>
+
           <ul>
             <NavItem
               item="About"

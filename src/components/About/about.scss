@@ -1,9 +1,13 @@
 .container {
-    width: fit-content;
-    height: 100%;
-  }
+  width: fit-content;
+  height: 100%;
+}
 
- 
-  .justify-content {
-      height: 100%;
-  }
+.justify-content {
+  height: 100%;
+}
+
+#intro-content p {
+  color: #333333;
+  font-size: large;
+}

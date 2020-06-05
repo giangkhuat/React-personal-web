@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import foodpic from "../About/food.JPG"
-import ProjectCard from "./ProjectCard"
-import Camp from "./camp.png"
-import cooking from "./cookingeasy.png"
+import foodpic from "../About/food.JPG";
+import ProjectCard from "./ProjectCard";
+import Camp from "./camp.png";
+import cooking from "./cookingeasy.png";
 
 export const ProjectIntro = [
   <ProjectCard
@@ -12,13 +12,7 @@ export const ProjectIntro = [
   />,
   <ProjectCard
     title="CookingEasy"
-    text="I did not actually start cooking until I came to the US when I was
-        17. To me, cooking takes courage and commitment. Why ? Because I
-        need to have courage to give myself a second chance to try again
-        when I fail and no one is around to comfort me (Btw I like sharing
-        my food with people so I will not get fat alone) I also do not
-        often record the amount I put in, which is probably I fail more
-        than usual, but thanks to that I have had many more discoveries :D"
+    text="A Android application to deliver mealkit boxes"
     imgSrc={cooking}
   />,
   <ProjectCard
