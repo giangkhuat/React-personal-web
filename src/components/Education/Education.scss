@@ -1,9 +1,6 @@
 .content-edu {
   border: 20px solid #ffdde1;
   padding: 20px 30px 20px 30px;
-  /* max-width instead of width would allow
-	the body to stay at 700px when we contract
-	until it can not and shrink the words */
   max-width: 700px;
   width: 80%;
   margin: 20px auto;
@@ -11,6 +8,21 @@
   text-align: left;
 }
 
+/*
+#content {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0, 2);
+}
+
+.condiv {
+  background-color: white;
+  background-size: cover;
+  max-height: 100%vh;
+}
+*/
 #left {
   float: left;
 }
