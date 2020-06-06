@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button, Card, Container, Row, Col } from "react-bootstrap";
+import {Link} from "react-router-dom"
 import "./project.scss";
 
 function ProjectCard(props) {
@@ -29,7 +30,11 @@ function ProjectCard(props) {
         <Card.Body id="card-body">
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.text}</Card.Text>
-          <Button variant="primary">Explore</Button>
+          <Link to={`/projects/${props.id}`}>
+          <Button variant="primary">
+            Explore</Button>
+        </Link>
+        
         </Card.Body>
       </Card>
       <p></p>

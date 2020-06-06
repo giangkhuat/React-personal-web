@@ -57,6 +57,7 @@ function Projects() {
     <div className="condiv" id="content">
       <div id="project-carousel" >
       <Carousel inputText={ProjectIntro} />
+    
       </div>
       
     </div>

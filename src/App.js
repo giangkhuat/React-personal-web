@@ -24,6 +24,7 @@ function App() {
           <Route path="/projects" exact>
             <Projects />
           </Route>
+          <Route path="/projects/:id" render={routeProps => <div>{JSON.stringify(routeProps, null, 2)}</div>} />
         </Switch>
       </div>
     </Router>
